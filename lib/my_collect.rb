@@ -1,5 +1,5 @@
 def my_collect(array)
-# collection = []
+collection = []
   i=0
   while i < array.length do 
   collection << yield(array[i])
