@@ -5,6 +5,7 @@ collection = [] #make an empty array to store everything in
   collection << yield(array[i]) #insert the array into the collection
   i+=1 #add one to indexeach time 
 end
+binding.pry
 collection #return the new collection
 end
 
